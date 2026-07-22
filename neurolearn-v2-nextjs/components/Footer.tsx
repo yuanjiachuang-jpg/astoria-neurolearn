@@ -1,0 +1,1 @@
+export default function Footer(){return <footer className="section-shell border-t border-white/6 py-10 text-sm text-white/35"><div className="flex flex-col justify-between gap-4 sm:flex-row"><p>NeuroLearn Lab · Astoria Bio Internship Prototype</p><p>Scientific content must be verified before publication.</p></div></footer>}
