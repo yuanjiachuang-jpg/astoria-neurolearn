@@ -2,7 +2,7 @@
 import { Brain, Menu, X } from "lucide-react";
 import { useState } from "react";
 
-const links = [["Learn","#learn"],["Prompt Lab","#prompt-lab"],["Compare","#compare"],["Method","#method"]];
+const links = [["Learn","#learn"],["Prompt Lab","#prompt-lab"],["Evaluate","#evaluate"],["Compare","#compare"],["Method","#method"]];
 
 export default function Navbar(){
   const [open,setOpen]=useState(false);
