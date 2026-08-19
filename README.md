@@ -115,3 +115,34 @@ git push -u origin main
 ## 注意
 
 现在的AI回答和评分只是界面占位数据，不是正式研究结论。正式展示前要替换成实际实验结果。
+
+## Week 5 comparison extension
+
+The `Compare & Score` section now expands the original three-model comparison while keeping the same rubric interaction style as the Week 3 evaluation system.
+
+It supports:
+
+- Three prompt strategies: Analogy, Lesson, Comparison
+- One controlled prompt shared by ChatGPT, Claude, and Gemini
+- Editable AI response fields
+- 1–5 scoring for Scientific Accuracy, Clarity, and Educational Usefulness
+- AI evaluation/comment field for each model
+- Total score out of 15
+- Summary cards at the bottom
+- Local progress saving
+- CSV export across all topics, prompt strategies, and models
+
+The fields begin blank so placeholder text is not confused with actual research results.
+
+## Week 5 guided workflow update
+
+The Compare section now supports a complete in-browser experiment workflow:
+
+1. Enter a preset or custom neuroscience topic.
+2. Choose Analogy, Lesson, Comparison, or a custom prompting strategy.
+3. Paste ChatGPT, Claude, and Gemini responses.
+4. Score all three responses using the same 1–5 rubric.
+5. Add an evaluation comment for each model.
+6. Review the final comparison, save locally, and export the current run to CSV.
+
+The interface is intentionally structured so a future API route can replace manual response/evaluation entry without redesigning the scoring workflow.
